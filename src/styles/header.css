@@ -1,0 +1,39 @@
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+}
+#hamburger{
+    width:10%;
+    height: 100px;
+    border: 1px solid black;
+}
+#search-bar{
+    width: 35%;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 60px;
+    padding: 10px;
+    background-color: white;
+}
+#navbar-parent{
+    width: 55%;
+    height: 100px;
+    border: 1px solid black;
+    display:flex;
+}
+.child-hamburger{
+    width: 30%;
+    height: 5px;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+.navbar-child{
+    margin-left: 100px;
+    margin-top: 50px;
+}
